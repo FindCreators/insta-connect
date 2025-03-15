@@ -1,0 +1,47 @@
+/* src/styles/CallbackPage.css */
+.callback-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.callback-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.callback-card h2 {
+  color: #262626;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.callback-card p {
+  color: #8e8e8e;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.error-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: #ed4956;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .callback-card {
+    padding: 30px 20px;
+  }
+}
