@@ -1,0 +1,9 @@
+{
+  "/api/instagram/auth/route": "app/api/instagram/auth/route.js",
+  "/api/instagram/profile/route": "app/api/instagram/profile/route.js",
+  "/api/instagram/media/route": "app/api/instagram/media/route.js",
+  "/api/auth/logout/route": "app/api/auth/logout/route.js",
+  "/page": "app/page.js",
+  "/instagram/callback/page": "app/instagram/callback/page.js",
+  "/dashboard/page": "app/dashboard/page.js"
+}
